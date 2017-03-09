@@ -16,5 +16,10 @@ namespace Taschenrechner
         {
             InitializeComponent();
         }
+
+        private void Zahl_0_Button_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = textBox1.Text + "0";
+        }
     }
 }
