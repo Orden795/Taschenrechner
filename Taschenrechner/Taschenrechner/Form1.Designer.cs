@@ -62,6 +62,7 @@
             this.Zahl_0_Button.TabIndex = 1;
             this.Zahl_0_Button.Text = "0";
             this.Zahl_0_Button.UseVisualStyleBackColor = true;
+            this.Zahl_0_Button.Click += new System.EventHandler(this.Zahl_0_Button_Click);
             // 
             // Zahl_1_Button
             // 
@@ -71,6 +72,7 @@
             this.Zahl_1_Button.TabIndex = 2;
             this.Zahl_1_Button.Text = "1";
             this.Zahl_1_Button.UseVisualStyleBackColor = true;
+            this.Zahl_1_Button.Click += new System.EventHandler(this.Zahl_1_Button_Click);
             // 
             // Zahl_2_Button
             // 
@@ -80,6 +82,7 @@
             this.Zahl_2_Button.TabIndex = 3;
             this.Zahl_2_Button.Text = "2";
             this.Zahl_2_Button.UseVisualStyleBackColor = true;
+            this.Zahl_2_Button.Click += new System.EventHandler(this.Zahl_2_Button_Click);
             // 
             // Zahl_3_Button
             // 
@@ -89,6 +92,7 @@
             this.Zahl_3_Button.TabIndex = 4;
             this.Zahl_3_Button.Text = "3";
             this.Zahl_3_Button.UseVisualStyleBackColor = true;
+            this.Zahl_3_Button.Click += new System.EventHandler(this.Zahl_3_Button_Click);
             // 
             // Zahl_4_Button
             // 
@@ -98,6 +102,7 @@
             this.Zahl_4_Button.TabIndex = 5;
             this.Zahl_4_Button.Text = "4";
             this.Zahl_4_Button.UseVisualStyleBackColor = true;
+            this.Zahl_4_Button.Click += new System.EventHandler(this.Zahl_4_Button_Click);
             // 
             // Zahl_5_Button
             // 
@@ -107,6 +112,7 @@
             this.Zahl_5_Button.TabIndex = 6;
             this.Zahl_5_Button.Text = "5";
             this.Zahl_5_Button.UseVisualStyleBackColor = true;
+            this.Zahl_5_Button.Click += new System.EventHandler(this.Zahl_5_Button_Click);
             // 
             // Zahl_6_Button
             // 
@@ -116,6 +122,7 @@
             this.Zahl_6_Button.TabIndex = 7;
             this.Zahl_6_Button.Text = "6";
             this.Zahl_6_Button.UseVisualStyleBackColor = true;
+            this.Zahl_6_Button.Click += new System.EventHandler(this.Zahl_6_Button_Click);
             // 
             // Zahl_7_Button
             // 
@@ -125,6 +132,7 @@
             this.Zahl_7_Button.TabIndex = 8;
             this.Zahl_7_Button.Text = "7";
             this.Zahl_7_Button.UseVisualStyleBackColor = true;
+            this.Zahl_7_Button.Click += new System.EventHandler(this.Zahl_7_Button_Click);
             // 
             // Zahl_8_Button
             // 
@@ -134,6 +142,7 @@
             this.Zahl_8_Button.TabIndex = 9;
             this.Zahl_8_Button.Text = "8";
             this.Zahl_8_Button.UseVisualStyleBackColor = true;
+            this.Zahl_8_Button.Click += new System.EventHandler(this.Zahl_8_Button_Click);
             // 
             // Zahl_9_Button
             // 
@@ -143,6 +152,7 @@
             this.Zahl_9_Button.TabIndex = 10;
             this.Zahl_9_Button.Text = "9";
             this.Zahl_9_Button.UseVisualStyleBackColor = true;
+            this.Zahl_9_Button.Click += new System.EventHandler(this.Zahl_9_Button_Click);
             // 
             // GleichheitszeichechenButton
             // 
@@ -222,6 +232,7 @@
             this.Controls.Add(this.textBox1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

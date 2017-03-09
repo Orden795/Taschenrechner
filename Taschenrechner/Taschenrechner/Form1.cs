@@ -16,5 +16,62 @@ namespace Taschenrechner
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        #region Zahlen
+        private void Zahl_0_Button_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = textBox1.Text + "0" ;
+        }
+
+        private void Zahl_1_Button_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = textBox1.Text + "1";
+        }
+
+        private void Zahl_2_Button_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = textBox1.Text + "2";
+        }
+
+        private void Zahl_3_Button_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = textBox1.Text + "3";
+        }
+
+        private void Zahl_4_Button_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = textBox1.Text + "4";
+        }
+
+        private void Zahl_5_Button_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = textBox1.Text + "5";
+        }
+
+        private void Zahl_6_Button_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = textBox1.Text + "6";
+        }
+
+        private void Zahl_7_Button_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = textBox1.Text + "7";
+        }
+
+        private void Zahl_8_Button_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = textBox1.Text + "8";
+        }
+
+        private void Zahl_9_Button_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = textBox1.Text + "9";
+        }
+        #endregion
     }
 }
