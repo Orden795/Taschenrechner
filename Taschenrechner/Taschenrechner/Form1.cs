@@ -72,6 +72,35 @@ namespace Taschenrechner
         {
             textBox1.Text = textBox1.Text + "9";
         }
+
         #endregion
+
+        #region Operanden ohne Rechnung
+        private void AdditionButton_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = textBox1.Text + "+";
+            textBox1.Clear();
+        }
+
+        private void SubtraktionButton_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = textBox1.Text + "-";
+            textBox1.Clear();
+        }
+
+        private void MultiplikationButton_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = textBox1.Text + "*";
+            textBox1.Clear();
+        }
+
+        private void DivisionButton_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = textBox1.Text + "/";
+            textBox1.Clear();
+        }
+        #endregion
+
+
     }
 }

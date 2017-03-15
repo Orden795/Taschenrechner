@@ -180,6 +180,7 @@
             this.DivisionButton.TabIndex = 13;
             this.DivisionButton.Text = "÷";
             this.DivisionButton.UseVisualStyleBackColor = true;
+            this.DivisionButton.Click += new System.EventHandler(this.DivisionButton_Click);
             // 
             // MultiplikationButton
             // 
@@ -189,6 +190,7 @@
             this.MultiplikationButton.TabIndex = 14;
             this.MultiplikationButton.Text = "x";
             this.MultiplikationButton.UseVisualStyleBackColor = true;
+            this.MultiplikationButton.Click += new System.EventHandler(this.MultiplikationButton_Click);
             // 
             // SubtraktionButton
             // 
@@ -198,6 +200,7 @@
             this.SubtraktionButton.TabIndex = 15;
             this.SubtraktionButton.Text = "-";
             this.SubtraktionButton.UseVisualStyleBackColor = true;
+            this.SubtraktionButton.Click += new System.EventHandler(this.SubtraktionButton_Click);
             // 
             // AdditionButton
             // 
@@ -207,6 +210,7 @@
             this.AdditionButton.TabIndex = 16;
             this.AdditionButton.Text = "+";
             this.AdditionButton.UseVisualStyleBackColor = true;
+            this.AdditionButton.Click += new System.EventHandler(this.AdditionButton_Click);
             // 
             // Form1
             // 
