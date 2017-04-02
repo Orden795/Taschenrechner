@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.CButton = new System.Windows.Forms.Button();
             this.CEButton = new System.Windows.Forms.Button();
@@ -47,14 +48,16 @@
             this.Zahl_2_Button = new System.Windows.Forms.Button();
             this.Zahl_1_Button = new System.Windows.Forms.Button();
             this.Zahl_0_Button = new System.Windows.Forms.Button();
+            this.Zahl1Label = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(12, 23);
+            this.textBox1.Location = new System.Drawing.Point(15, 22);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(274, 20);
             this.textBox1.TabIndex = 0;
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // CButton
             // 
@@ -64,6 +67,7 @@
             this.CButton.TabIndex = 42;
             this.CButton.Text = "C";
             this.CButton.UseVisualStyleBackColor = true;
+            this.CButton.Click += new System.EventHandler(this.CButton_Click);
             // 
             // CEButton
             // 
@@ -73,6 +77,7 @@
             this.CEButton.TabIndex = 41;
             this.CEButton.Text = "CE";
             this.CEButton.UseVisualStyleBackColor = true;
+            this.CEButton.Click += new System.EventHandler(this.CEButton_Click);
             // 
             // AdditionButton
             // 
@@ -122,6 +127,7 @@
             this.KommaButton.TabIndex = 36;
             this.KommaButton.Text = ",";
             this.KommaButton.UseVisualStyleBackColor = true;
+            this.KommaButton.Click += new System.EventHandler(this.KommaButton_Click);
             // 
             // GleichheitszeichechenButton
             // 
@@ -131,6 +137,7 @@
             this.GleichheitszeichechenButton.TabIndex = 35;
             this.GleichheitszeichechenButton.Text = "=";
             this.GleichheitszeichechenButton.UseVisualStyleBackColor = true;
+            this.GleichheitszeichechenButton.Click += new System.EventHandler(this.GleichheitszeichechenButton_Click);
             // 
             // Zahl_9_Button
             // 
@@ -232,11 +239,23 @@
             this.Zahl_0_Button.UseVisualStyleBackColor = true;
             this.Zahl_0_Button.Click += new System.EventHandler(this.Zahl_0_Button_Click);
             // 
+            // Zahl1Label
+            // 
+            this.Zahl1Label.AutoSize = true;
+            this.Zahl1Label.BackColor = System.Drawing.Color.White;
+            this.Zahl1Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Zahl1Label.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.Zahl1Label.Location = new System.Drawing.Point(21, 23);
+            this.Zahl1Label.Name = "Zahl1Label";
+            this.Zahl1Label.Size = new System.Drawing.Size(0, 16);
+            this.Zahl1Label.TabIndex = 43;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(301, 255);
+            this.Controls.Add(this.Zahl1Label);
             this.Controls.Add(this.CButton);
             this.Controls.Add(this.CEButton);
             this.Controls.Add(this.AdditionButton);
@@ -256,8 +275,11 @@
             this.Controls.Add(this.Zahl_1_Button);
             this.Controls.Add(this.Zahl_0_Button);
             this.Controls.Add(this.textBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximumSize = new System.Drawing.Size(317, 294);
+            this.MinimumSize = new System.Drawing.Size(317, 294);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Taschenrechner";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -284,6 +306,7 @@
         private System.Windows.Forms.Button Zahl_2_Button;
         private System.Windows.Forms.Button Zahl_1_Button;
         private System.Windows.Forms.Button Zahl_0_Button;
+        private System.Windows.Forms.Label Zahl1Label;
     }
 }
 
